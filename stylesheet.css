@@ -1,0 +1,314 @@
+/*  CSS Document                             */
+/*  Written by Ade Olumofin for SyntaxNinjas.com  */
+/*  Styles For Body  */
+@import url(http://fonts.googleapis.com/css?family=Teko:300,700);
+html, body {
+	 margin: 0; padding: 0; background-color: #fff; color: #000; border: 0px;
+	 -webkit-appearance: none;
+     -moz-appearance: none;
+}
+#Main{
+	font-size: 1em;
+	font-family: 'Teko', sans-serif;
+	width: 500px;
+	margin: 1% auto;
+
+}
+.Top-heading h1{
+	font-size: 3.2em;
+	padding-left: 30px;
+	font-weight:300px;
+	line-height: 1em;
+	margin: 0px 0px 0px -10px;
+	text-align: center;
+}
+.Top-heading h2{
+	text-align: center;
+	font-size: 1.0em;
+	color: #000;
+	letter-spacing: 0.2em;
+	padding: 0px;
+}
+
+/*Styles For Syntax Ninja Logo*/
+.Graphic img{
+	padding-left: 120px;
+	height: 50%;
+	width: 50%;
+}
+/*styles For Mid heading*/
+.Mid-heading h2{
+font-family: 'Teko', Sans-serif;
+padding-left: 33%;
+line-height: 0.5em;
+}
+/*Styles For Countdown Clock*/
+#Main .my-countdown .countdown-amount{
+display:block;
+font-size: 2.5em;
+line-height: 1.5em;	
+}
+#Main .my-countdown .countdown-period{
+display: block;
+color: #6dcff6;	
+letter-spacing: 0.009em;
+font-size: 1.5em;
+line-height: 5px;
+}
+#Main .my-countdown .countdown-row{
+	display: block;
+	text-align: center;
+	padding-right:4%; 
+}
+#Main .my-countdown .countdown-section{
+	display:inline-block;
+	width: 120px;
+}
+/*Styles For Subscription Message*/
+#subscribe h3{
+	font-size: 1.2em;
+	padding-left: 15%;
+}
+/*Styles For Social Media Icons*/
+.line{
+	padding-left: 20%;
+	padding-right:0px;
+}
+.socialmediaicons ul{
+padding: 0px;
+margin: 0px;	
+}
+
+.socialmediaicons li{
+	list-style: none;
+	display: inline;
+}
+.socialmediaicons ul li > a.facebook{
+	line-height: 2em;
+	text-indent: -9999px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 9px 12px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+	height: 30%;
+	width: 30%;
+}
+.socialmediaicons ul li > a.facebook:hover{
+	text-indent: -9999px;
+	line-height: 2em;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 9px -76px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+.socialmediaicons ul li > a.linkedin{
+	line-height: 2em;
+	text-indent: -9999px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 20px -157px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+.socialmediaicons ul li > a.linkedin:hover{
+	text-indent: -9999px;
+	line-height: 2em;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 20px -244px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+
+
+.socialmediaicons ul li > a.twitter{
+	line-height: 2em;
+	text-indent: -9999px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 30px -324px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+.socialmediaicons ul li > a.twitter:hover{
+	text-indent: -9999px;
+	line-height: 2em;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 30px -411px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+
+
+.socialmediaicons ul li > a.pinterest{
+	line-height: 2em;
+	text-indent: -9999px;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png)35px -490px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+.socialmediaicons ul li > a.pinterest:hover{
+	text-indent: -9999px;
+	line-height: 2em;
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 30px;
+	background:url(socialmediaicon4.png) 35px -577px;
+	background-repeat:no-repeat;
+	color: #fff;
+	font-size: 0.5px;
+}
+/*Styles For Form*/
+
+fieldset {
+	border: none;
+	background: url(form_background.png) no-repeat;
+	background-size:90% 100%;
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+label{
+	padding-left: 0px;
+	margin: 5px;
+}
+/*Styles For Form Fields*/
+#FeedBackMessage{
+font-size: 1.2em;
+color: green;
+padding-left: 40px;
+}
+.hint2{
+font-size: 1.3em;
+color: red;
+padding-left: 13%;
+}
+.forminput{
+	width: 80%;
+	height: 30px;
+	border: none;
+	border-radius: 0px 10px 10px 0px;
+	font-size: 1.2em;
+	font-family:'Teko', sans-serif;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.forminput:hover{
+	background-color:#fcffb6;
+	width: 80%;
+	height: 30px;
+	border: none;
+	border-radius: 0px 10px 10px 0px; 
+	font-size: 1.2em;
+	font-family:'Teko', sans-serif;
+	margin-bottom: 10px;
+}
+/*Styles For Submit Button*/
+
+button{
+	background-color: yellow;
+	position: relative;
+	top: 15px;
+	left: 30%;
+	width: 25%;
+	height: 15%;
+	border: none;
+	font-family: 'Teko', sans-serif;
+	color: #6dcff6;	
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+
+
+/*media screen begins here*/
+@media screen and (max-width:535px){
+#Main {
+		font-size: 12px;
+		width: 400px;
+		min-height: 465px;
+		}
+.Graphic img{
+		padding-left: 90px;
+		height: 55%;
+		width: 55%;
+	}
+#Main .heading {
+padding: 12px 0px 8px 0px;
+margin-bottom: 5px;
+	width: 100%;
+}
+#Main h1{
+	line-height: 1em;
+	font-size: 3.0em;
+	padding-right: 15px;
+}
+#Main h2{
+	line-height: 22px;
+	letter-spacing: 5px;
+	padding-left: 35px;
+	font-size: 1.5em;
+}
+.Mid-heading{
+padding-left: 15%;		
+	}
+.my-countdown{
+font-size:1.5em;
+}
+#Main .my-countdown .countdown-amount{
+display:block;
+font-size: 2em;	
+}
+#Main .my-countdown .countdown-period{
+display: block;
+color: #6dcff6;	
+letter-spacing: 2px;
+	font-size: 1.2em;
+}
+#Main .my-countdown .countdown-row{
+	display: block;
+	text-align: center;
+	
+}
+#Main .my-countdown .countdown-section{
+	width: 90px;	
+	display: inline-block;
+	
+}
+.line{
+	padding-left: 13%;
+	padding-right:0px;
+}
+}
+
+
